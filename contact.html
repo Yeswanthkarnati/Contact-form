@@ -10,21 +10,24 @@
 </head>
 <body>
     <div class="contact-container d-flex flex-row justify-content-center align-items-center">
-        <form action="https://api.web3forms.com/submit" method="POST" class="left-container d-flex flex-column align-items-start">
-                <div class="contact-left mb-2">
-                    <h2 class="title">Contact Us</h2>
-                    <hr/>
-                </div>
-                <input type="hidden" name="access_key" value="3793a0ea-87c4-491f-9ed0-4139edfefb82 ">
-                <input class="contact-input" type="text" name="name" placeholder="Enter your name">
-                <input class="contact-input" type="email" name="email"placeholder="Enter your email">
-                <textarea name="message" placeholder="Enter your name"  ></textarea>
-                <button type="button" class="jigidi">Submit
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                      </svg>
-                </button>
-            </form>
+        <div>
+            <div class="contact-left mb-2">
+                <h2 class="title">Contact Us</h2>
+                <hr/>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" 
+            class="left-container d-flex flex-column align-items-start">
+            <input type="hidden" name="access_key" value="3793a0ea-87c4-491f-9ed0-4139edfefb82"/>
+            <input class="contact-input" type="text" name="name" placeholder="Enter your name"/>
+                    <input class="contact-input" type="email" name="email"placeholder="Enter your email"/>
+                    <textarea name="message" placeholder="Enter your name"  ></textarea>
+                    <button type="submit" class="jigidi">Submit
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                          </svg>
+                    </button>
+                </form>
+        </div>
             <div class="right-container">
                 <!-- <img src="" -->
                 <div id="observablehq-chart-2dbcba3f"></div>
